@@ -4,7 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import "./Home.css";
-import Button from "../Button/Button.js"
+import Button from "../Button/Button.js";
+import Form from "../Form/Form.js";
 
 
 
@@ -12,7 +13,7 @@ import Button from "../Button/Button.js"
 
 function Home() {
     return (
-    <Container className="container">
+    <Container className="container fluid">
         <Row className="heading">
             <h1>
                 Welcome to Potty Time!
@@ -21,7 +22,10 @@ function Home() {
         <Row className="potty-img">
             <Image className="responsive" src={Potty} rounded/>
         </Row>
+        <Row>
         <Button />
+        <Form />
+        </Row>
     </Container>
     );
   }
