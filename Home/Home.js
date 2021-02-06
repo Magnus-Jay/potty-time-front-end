@@ -1,6 +1,7 @@
 import React from "react";
 import Potty from "../assets/potty.jpg";
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import "./Home.css";
@@ -22,10 +23,12 @@ function Home() {
         <Row className="potty-img">
             <Image className="responsive" src={Potty} rounded/>
         </Row>
+        <div>
         <Row>
-        <Button />
         <Form />
+        <Button />   
         </Row>
+        </div>
     </Container>
     );
   }

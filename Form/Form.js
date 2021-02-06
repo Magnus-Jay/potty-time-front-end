@@ -13,7 +13,7 @@ function form() {
     return (
    <Row className="form">
       <Form.Group>
-  <Form.Control type="text" placeholder="Normal text" />
+  <Form.Control type="text" placeholder=" Enter Zip Code" />
 </Form.Group> 
    </Row>
     );
