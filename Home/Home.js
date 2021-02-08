@@ -14,21 +14,18 @@ import Form from "../Form/Form.js";
 
 function Home() {
     return (
-    <Container className="container fluid">
+    <Container fluid >
         <Row className="heading">
             <h1>
                 Welcome to Potty Time!
             </h1>
         </Row>
         <Row className="potty-img">
-            <Image className="responsive" src={Potty} rounded/>
+            <Image src={Potty} rounded fluid />
         </Row>
-        <div>
         <Row>
-        <Form />
         <Button />   
-        </Row>
-        </div>
+        </Row>  
     </Container>
     );
   }
