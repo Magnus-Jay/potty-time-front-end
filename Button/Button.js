@@ -9,17 +9,7 @@ import Form from "../Form/Form.js";
 function buttonCall() {
   return (
     <div>
-      <Col>
-        <Form />
-        <Button
-          as="input"
-          type="submit"
-          value="Search"
-          variant="success"
-          className="button"
-          size="lg"
-        />{" "}
-      </Col>
+        <Button as="input" type="submit" value="Search" variant="success" className="button" size="lg"/>{" "}
     </div>
   );
 }

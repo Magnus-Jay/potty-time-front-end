@@ -1,3 +1,4 @@
-.form {
-    flex-direction: row-reverse;
+.form-row {
+   padding-right: 15px;
 } 
+

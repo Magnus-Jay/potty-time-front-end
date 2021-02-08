@@ -21,10 +21,11 @@ function Home() {
             </h1>
         </Row>
         <Row className="potty-img">
-            <Image src={Potty} rounded fluid />
+            <Image className="responsive" src={Potty} rounded fluid />
         </Row>
-        <Row>
-        <Button />   
+        <Row className="search-options">
+        <Form />
+        <Button id="button" />   
         </Row>  
     </Container>
     );

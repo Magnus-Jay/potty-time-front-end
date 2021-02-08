@@ -11,9 +11,9 @@ import Form from 'react-bootstrap/Form'
 
 function form() {
     return (
-   <Row className="form">  
+<div className="form-row">
    <Form.Control type="text" placeholder=" Enter Zip Code" />
-   </Row>
+</div> 
     );
   }
   
